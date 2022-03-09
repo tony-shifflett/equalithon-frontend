@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/RegistrationForm.css'
 
 const RegisterForm = () => {
   return (
