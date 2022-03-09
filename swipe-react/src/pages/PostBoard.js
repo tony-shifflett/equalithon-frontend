@@ -2,7 +2,7 @@ import React from 'react'
 
 const PostBoard = () => {
   return (
-    <div>PostBoard</div>
+    <h1>PostBoard</h1>
   )
 }
 
