@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/LoginForm.css'
 
 const LoginForm = () => {
+
   return (
     <form className='logInForm'>
         <label>Name: </label>
