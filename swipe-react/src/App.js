@@ -1,11 +1,14 @@
 import './App.css';
-import Login from './pages/Login';
+import Landing from './pages/Landing';
+import {Route, Routes} from 'react-router-dom'
 
 
 function App() {
   return (
     <div className="App">
-      <h1>SwipeVC</h1>
+     <Routes>
+       <Route path='/' element={<Landing/>}/>
+     </Routes>
     </div>
   );
 }
